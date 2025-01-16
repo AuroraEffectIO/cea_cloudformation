@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: '2010-09-09' # Version used of the CloudFormation template format
+Description: CloudFormation template for s3 bucket
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: blake-s3-bucket-stack-1
